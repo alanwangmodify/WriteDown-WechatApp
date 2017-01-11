@@ -1,0 +1,7 @@
+
+<view class="container">
+    <input placeholder="标题"/>
+    <button>封面</button>
+    <textarea placeholder="正文"/>
+
+</view>

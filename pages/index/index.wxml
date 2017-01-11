@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+
+
+  <image src="src" class=".circle-img">
+  <button bindtap="startWriteAction" class="circle-btn">
+  </button>
+  </image>
+
+
+</view>
