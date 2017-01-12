@@ -1,11 +1,6 @@
 <!--index.wxml-->
 <view class="container">
 
-
-  <image src="src" class=".circle-img">
-  <button bindtap="startWriteAction" class="circle-btn">
-  </button>
+  <image src="../../images/write_icon.png" class="circle-img" bindtap="startWriteAction">
   </image>
-
-
 </view>

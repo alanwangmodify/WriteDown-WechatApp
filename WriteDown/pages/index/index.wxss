@@ -1,14 +1,14 @@
 /**index.wxss**/
 
 .circle-btn {
-  width: 130rpx;
-  height: 130rpx;
-  border-radius: 50%;
-  opacity: 0.0;
+  width: 140rpx;
+  height: 140rpx;
+  opacity: 1;
 }
 
 .circle-img {
-  width: 130rpx;
-  height: 130rpx;
-  border-radius: 50%;
+  width: 140rpx;
+  height: 140rpx;
+  padding-bottom: 30rpx;
+  padding-top: 300rpx;
 }
