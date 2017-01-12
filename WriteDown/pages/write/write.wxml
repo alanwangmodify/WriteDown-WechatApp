@@ -1,7 +1,7 @@
 
 <view class="container">
     <input class="input-class" placeholder-style="input-placehold-class" placeholder="标题"/>
-    <button>封面</button>
+    <!--<button>封面</button>-->
     
     <textarea class="textarea-class" cursor-spacing="20" placeholder="正文"/>
 </view>
