@@ -1,3 +1,7 @@
+
+
+var textRecordKey = ""
+
 Page({
   data:{},
   onLoad:function(options){
@@ -14,5 +18,30 @@ Page({
   },
   onUnload:function(){
     // 页面关闭
+    
+  },
+
+ 
+  SaveBtnEventHandle:function (){
+    try {
+      if (textRecordKey.length==0){
+        textRecordKey = "textRecordKey"+Date.parse(new Date());
+        console.log('New key')
+
+      }
+      console.log(textRecordKey)
+      wx.setStorageSync(textRecordKey, 'value')
+      // wx.navigateBack({
+      //   delta: 1, // 回退前 delta(默认为1) 页面
+      //   success: function(res){
+      //   },
+      //   fail: function() {
+      //   },
+      //   complete: function() {
+      //   }
+      // })
+    } catch (e) {
+      console.log(e)
+    }    
   }
 })

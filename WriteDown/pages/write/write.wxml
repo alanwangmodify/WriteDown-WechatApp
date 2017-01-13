@@ -1,7 +1,6 @@
 
 <view class="container">
-    <input class="input-class" placeholder-style="input-placehold-class" placeholder="标题"/>
-    <!--<button>封面</button>-->
-    
+    <input class="input-class" placeholder-style="input-placehold-class" placeholder="标题"/>    
     <textarea class="textarea-class" cursor-spacing="20" placeholder="正文"/>
+    <button bindtap="SaveBtnEventHandle">保存</button>
 </view>
