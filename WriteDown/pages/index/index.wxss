@@ -14,7 +14,7 @@
 }
 
 .item-view{
-  width: 80;
-  height: 60;
-
+  width: 80%;
+  height: 70rpx;
+  margin: 20rpx;
 }

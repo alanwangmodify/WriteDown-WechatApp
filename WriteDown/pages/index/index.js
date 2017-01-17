@@ -25,8 +25,13 @@ Page({
 
     that.setData({
       itemList:[{
-        "title":"tilte"
-      },{"title":"title"}]
+        "idKey":"",
+        "title":"曾少婷超级好看",
+        "content":"王小树也超级好看"
+      },{
+        "title":"曾少婷超级好看",
+        "content":"王小树也超级好看"
+      }]
     })
   },
   
