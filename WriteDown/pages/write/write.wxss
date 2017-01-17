@@ -1,11 +1,11 @@
 .input-class{
-
+    align-items: center;
     margin-top: 70rpx;
-   margin-left: -200rpx;
+
 }
 
 .input-placehold-class{
-    margin-left: 0rpx;
+    align-items: center;
 }
 
 .line-style {

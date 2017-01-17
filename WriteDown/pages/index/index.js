@@ -24,7 +24,9 @@ Page({
     var that = this
 
     that.setData({
-      itemList:[]
+      itemList:[{
+        "title":"tilte"
+      },{"title":"title"}]
     })
   },
   

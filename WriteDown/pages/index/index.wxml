@@ -3,4 +3,9 @@
 
   <image src="../../images/write_icon.png" class="circle-img" bindtap="startWriteAction">
   </image>
+
+  <block wx:for="{{itemList}}">
+  <view class="item-view"> {{item.title}}: </view>
+  </block>
+
 </view>
