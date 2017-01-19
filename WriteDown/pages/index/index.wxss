@@ -12,9 +12,18 @@
   padding-bottom: 30rpx;
   padding-top: 300rpx;
 }
-
-.item-view{
+.text-titlet {
   width: 80%;
-  height: 70rpx;
-  margin: 20rpx;
+  display: flex;
+  
+}
+.itemView-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20rpx;
+    margin-bottom: 40rpx;
+    background-color: #fff;
+    border-bottom: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+    padding-bottom: 5px;
 }

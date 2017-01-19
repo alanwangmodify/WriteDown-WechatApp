@@ -6,7 +6,7 @@
 
   <block wx:for="{{itemList}}">
       
-      <view class="item-view"> 
+      <view class="itemView-container"> 
           <text class="text-titlet">{{item.title}}\n</text>
           <text class="text-content">{{item.content}}</text>
        </view>
