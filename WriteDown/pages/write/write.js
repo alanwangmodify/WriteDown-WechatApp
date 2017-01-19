@@ -29,7 +29,18 @@ Page({
         sourceType: ['album', 'camera'], // album 从相册选图，camera 使用相机，默认二者都有
         success: function(res){
           var tempFilePaths = res.tempFilePaths
-          console.log(tempFilePaths)
+          wx.saveFile({
+            tempFilePath: tempFilePaths,
+            success: function(res){
+                console.log(res.savedFilePath)
+            },
+            fail: function() {
+              // fail
+            },
+            complete: function() {
+              // complete
+            }
+          })
         },
         fail: function() {        
         },
@@ -37,7 +48,7 @@ Page({
           // complete
         }
       });
-      
+     
   },
  
   SaveBtnEventHandle:function (){

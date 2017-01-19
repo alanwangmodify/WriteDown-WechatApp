@@ -15,7 +15,6 @@
 .text-titlet {
   width: 80%;
   display: flex;
-  
 }
 .itemView-container{
     display: flex;
@@ -23,7 +22,7 @@
     margin-top: 20rpx;
     margin-bottom: 40rpx;
     background-color: #fff;
-    border-bottom: 1px solid #ededed;
-    border-top: 1px solid #ededed;
+    /*border-bottom: 1px solid #ededed;*/
+    /*border-top: 1px solid #ededed;*/
     padding-bottom: 5px;
 }
