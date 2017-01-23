@@ -1,9 +1,13 @@
 <!--index.wxml-->
 <view class="container">
 
-  <image src="../../images/write_icon.png" class="circle-img" bindtap="startWriteAction">
+  <image src="../../images/write_icon.png" class="icon-img" bindtap="startWriteAction">
   </image>
 
+  <image src="../../images/history_icon.png" class="icon-img" bindtap="startWriteAction">
+  </image>
+
+ 
   <block wx:for="{{itemList}}">
       
       <view class="itemView-container"> 
