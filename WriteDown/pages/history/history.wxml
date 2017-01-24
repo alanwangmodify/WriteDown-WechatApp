@@ -1,0 +1,8 @@
+
+<view class=“container”></view>
+  <block wx:for="{{itemList}}">
+      <view class="itemView-container"> 
+          <text class="text-titlet">{{item.title}}\n</text>
+          <text class="text-content">{{item.content}}</text>
+       </view>
+  </block>
